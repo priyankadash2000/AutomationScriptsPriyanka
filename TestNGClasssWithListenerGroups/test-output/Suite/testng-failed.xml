@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Pac1.ThirdtestNG">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="gobackHomePage"/>
+          <include name="verifyRegister"/>
+          <include name="launchBrowser"/>
+          <include name="verifySignon"/>
+        </methods>
+      </class> <!-- Pac1.ThirdtestNG -->
+      <class name="toolsqa.pac.CreateUserAccount">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="createUserAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- toolsqa.pac.CreateUserAccount -->
+      <class name="Pac1.SecondTestNG">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="afterTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Pac1.SecondTestNG -->
+      <class name="Pac1.ShoppingTestNGdemoautomationtesting">
+        <methods>
+          <include name="doShopping"/>
+          <include name="afterTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Pac1.ShoppingTestNGdemoautomationtesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
